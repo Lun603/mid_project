@@ -204,41 +204,6 @@ nav a.active {
     font-weight: bold;
 }
 
-.coffee-picker {
-    margin-top: 18px;
-    padding: 18px 20px;
-    background-color: #f9fafb;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.coffee-picker p {
-    margin: 0;
-    font-weight: bold;
-    color: #2b5876;
-}
-
-.btn-coffee {
-    background-color: #1e2022;
-    color: #ffffff;
-    border: none;
-    padding: 9px 18px;
-    border-radius: 6px;
-    font-size: 0.95rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-}
-
-.btn-coffee:hover {
-    opacity: 0.85;
-}
-
 .grid-2x2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -327,6 +292,39 @@ nav a.active {
 .overlay p {
     font-size: 0.9rem;
     margin: 0;
+}
+
+.schedule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eeeeee;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.schedule-header h2 {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.btn-schedule {
+    background-color: #1e2022;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn-schedule:hover {
+    opacity: 0.85;
 }
 
 .timetable-wrapper {
